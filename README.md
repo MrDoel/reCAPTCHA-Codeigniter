@@ -8,6 +8,7 @@ On CodeIgniter Views, Paste this snippet before the closing `</head>` tag on you
 `<script src='https://www.google.com/recaptcha/api.js'></script>`
 
 -- Optional
+
 If you want to use another language, you can specify on JavaScript render, add this code :
 **?onload=onloadCallback&hl=id**
 For example i want to use Indonesian Language, on **hl** parameter i use **id** code. So The javascript will be :
