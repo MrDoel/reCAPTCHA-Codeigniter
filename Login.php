@@ -25,7 +25,7 @@ class Login extends CI_Controller {
 
         $recaptchaResponse = trim($this->input->post('g-recaptcha-response'));
         $userIp=$this->input->ip_address();
-        $secret='YOUR_KEY';
+        $secret='SECRET_KEY';
         $getResponse = $this->_submitHttpGet(
             array(
                 'secret' => $secret,
