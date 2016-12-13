@@ -8,4 +8,4 @@ Again, on CodeIgniter Views, Paste this snippet at the end of the <form> where y
 `<div class="g-recaptcha" data-sitekey="SITE_KEY"></div>`
 
 ##STEP 3
-You can see the [Login](../master/Login.php) Controller for login validation Processing with Google reCAPTHCA 
+You can see the [Login](../master/Login.php) Controller for login validation Processing with Google reCAPTHCA. Change the Secret Key on variable `$secret='SECRET_KEY'`
