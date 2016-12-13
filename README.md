@@ -6,6 +6,16 @@ Get The reCAPTHCA **Site Key** and **Secret Key** on https://www.google.com/reca
 On CodeIgniter Views, Paste this snippet before the closing `</head>` tag on your HTML template:
 
 `<script src='https://www.google.com/recaptcha/api.js'></script>`
+
+-- Optional
+If you want to use another language, you can specify on JavaScript render, add this code :
+**?onload=onloadCallback&hl=id**
+For example i want to use Indonesian Language, on **hl** parameter i use **id** code. So The javascript will be :
+
+`<script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&hl=id'></script>`
+
+You can see available language on https://developers.google.com/recaptcha/docs/language
+
 ##STEP 3
 Again, on CodeIgniter Views, Paste this snippet at the end of the `<form>` where you want the reCAPTCHA widget to appear:
 
